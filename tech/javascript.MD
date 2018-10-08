@@ -120,6 +120,19 @@ typeof (operand)
     <summary>
         Answer
     </summary>
+
+The anonymous functions are those function created with the function constructor and hasn't any given name, those functions are commonly used as parameters to other functions.
+```js
+//declaration
+function() {
+    console.log('Hi from annonymous my function');
+}
+
+//common use
+setTimeout(function() {
+    console.log('Hi from my annonymous function');
+}, 300);
+```
 </details>
 
 ### 9. What is a function callback?
